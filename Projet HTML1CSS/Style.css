@@ -1,0 +1,183 @@
+/* Appliquer la police de caractères Roboto */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Style de la barre de navigation */
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #444;
+    border-radius: 5px;
+}
+
+/* Section d'accueil */
+#home {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+#home h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+#home p {
+    font-size: 18px;
+    color: #666;
+    margin-top: 20px;
+}
+
+video {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Section À propos */
+#about {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+#about p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Section Travaux */
+#work {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#work h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+#work ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#work ul li {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Section CV */
+#resume {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#resume h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+table {
+    margin: 20px auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #f4f4f4;
+}
+
+/* Section Contact */
+#contact {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+form label {
+    font-size: 18px;
+    margin: 10px 0;
+    display: block;
+}
+
+form input, form textarea {
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+form textarea {
+    height: 150px;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #444;
+}
+
+/* Pied de page */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
