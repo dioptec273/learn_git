@@ -1,0 +1,6 @@
+Le design du site "Boutique Lumière Sénégal" se concentre sur une navigation simple et fluide grâce
+ à un header fixe et un menu responsive. Les cartes de produits sont organisées en grille pour un affichage
+ clair et attractif, avec des effets de survol pour améliorer l'interactivité.
+ Le pied de page fournit les informations de contact et des icônes de réseaux sociaux. 
+L’utilisation de Bootstrap assure une mise en page réactive et une expérience optimisée sur mobile. 
+Les couleurs et boutons sont choisis pour offrir un design professionnel et dynamique.
